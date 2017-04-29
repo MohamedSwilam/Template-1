@@ -1,0 +1,433 @@
+/* ----------- START RESET -------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,   
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: black;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+/* ----------- END RESET -------------- */
+
+body{
+    background-color: black;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: #555;
+  background-color: #FFD700;
+}
+
+.header{
+    color: aqua;
+    height:800px;
+    background-image: url(../images/7033398-washington-evening.jpg);
+    background-size: cover;
+}
+
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav1 .navbar-default .navbar-brand {
+  font-style: italic;
+}
+
+.nav1 .navbar-default {
+    z-index: 1;
+  position: fixed;
+  background-color: rgba(13, 18, 36, 0);
+  border-color: rgba(3, 3, 3, 0);
+  width: 100%;
+}
+
+.nav1 .navbar .btn-default {
+  color: #FFF;
+  background-color: gold;
+  border-color: #0D1224;
+}
+
+.nav1 .navbar .btn {
+  display: inline-block;
+  padding: 6px 28px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-left: -9px;
+}
+
+
+
+.nav1 .navbar-form .form-control {
+  display: inline-block;
+  width: 384px;
+  vertical-align: middle;
+}
+
+.nav1 .navbar-default .navbar-brand {
+  color: white;
+}
+
+.nav1 .navbar-default .navbar-nav>li>a {
+  color: #FFFFFF;
+}
+
+.nav1 .navbar-default .navbar-nav>li>a hover {
+  color: gold;
+}
+
+.nav1 .navbar-nav>li>.dropdown-menu {
+  margin-top: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.nav2 .navbar-default .navbar-brand {
+  font-style: italic;
+}
+
+
+
+ .nav2 .navbar-default {
+     z-index: 1;
+     -webkit-box-shadow: 0 1px 10px #fff;
+       -moz-box-shadow: 0 1px 10px #fff;
+       -ms-box-shadow: 0 1px 10px #fff;
+       -o-box-shadow: 0 1px 10px #fff;
+       box-shadow: 0 4px 16px #E8CE45;
+    position: fixed ;
+    background-color: rgb(13, 18, 36);
+    border-color: rgba(3, 3, 3, 0);
+    width: 100% ;
+}
+
+.nav2 .navbar .btn-default {
+  color: #FFF;
+  background-color: gold;
+  border-color: #0D1224;
+}
+
+.nav2 .navbar .btn {
+  display: inline-block;
+  padding: 6px 28px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-left: -9px;
+}
+
+
+
+.nav2 .navbar-form .form-control {
+  display: inline-block;
+  width: 384px;
+  vertical-align: middle;
+}
+
+.nav2 .navbar-default .navbar-brand {
+  color: white;
+}
+
+.nav2 .navbar-default .navbar-nav>li>a {
+  color: #FFFFFF;
+    font-weight: bold;
+}
+
+.nav2 .navbar-default .navbar-nav>li>a hover {
+  color: gold;
+}
+
+.nav2 .navbar-nav>li>.dropdown-menu {
+  margin-top: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+
+
+/*@media (min-width: 768px){
+.navbar-right .dropdown-menu {
+  right: 30%;
+  left: auto;
+}
+}*/
+
+.header .intro-header .intro1{
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: italic;
+  font-size: 44px;
+  line-height: 40px;
+  margin-bottom: 25px;
+   padding-top: 245px;
+  
+  color: white;
+}
+
+.header .intro-header .intro2 {
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: italic;
+  font-size: 63px;
+  line-height: 40px;
+  margin-bottom: 25px;
+  padding-top: 28px;
+  
+  color: white;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #FFD71C;
+  border-color: #FFD700;
+}
+
+.intro-header .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+    background-color: gold;
+}
+
+.service .title{
+   padding-top: 90px;
+   font-size: 35px;
+   color: gold;
+}
+
+.service .intro{
+    display: inline-block;
+    margin-left: 160px;
+  margin-top: 79px;
+}
+
+.service .intro img:hover{
+    background-color: gold;
+}
+
+.service .intro img{
+      width: 225px;
+}
+
+.service .intro h1{
+    padding-top: 40px;
+  padding-left: 35px;
+  color: rgba(255, 215, 0, 1);
+}
+
+.footer{
+    padding-top: 0px;
+}
+
+.footer h1{
+    background-color: rgb(13, 18, 36);
+    color: white;
+}
+
+.shop .container{
+    /*border-left: solid 3px white;
+    border-right: solid 3px gold;*/
+     margin-top: 30px;
+}
+
+.shop .container h1 {
+  color: gold;
+  font-size: 48px;
+}
+
+.shop .container .fashion{
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.shop .container .fashion .img{
+   width: 335px;
+  margin-left: 20px;
+    position:relative;
+}
+
+.shop .container .fashion .img img {
+  width: 230px;
+  margin-left: 90px;
+}
+
+
+   .shop .container .fashion .img p {
+  padding-top: 23px;
+  width:210px;
+  margin-left: 70px;
+  color: white;
+}
+
+.shop .container .fashion .img h{
+  margin-left: 72px;
+  color: gold;
+}
+
+
+.shop .container .fashion .img .img-overlay {
+   position: absolute;
+  top: 0;
+  background-color: rgba(13, 18, 36, 0.77);
+  height: 287px;
+  width: 230px;
+  left: 90px;
+  opacity: 0;
+  transition: all .4s;
+}
+.shop .container .fashion .img:hover .img-overlay{
+    opacity: 1;
+}
+
+
+    .shop .container .fashion .img .img-overlay h2 {
+  color: #FFD700;
+  margin-top: 125px;
+  margin-left: 57px;
+}
+
+
+.shop .container .fashion .img .img-overlay a img {
+    margin-top: -63px;
+    width: 225px;
+    margin-left: 4px;
+
+}
+
+.top {
+    position: fixed;
+    right: 25px;
+    bottom: 8px;
+}
+
+.top img {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.contact {
+    margin-top: 50px;
+    background-image: url(../images/world.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+li:hover{
+    
+    background-color: #FFD700;
+}
+
+li a:hover{
+    color: #555;
+}
+
+.menuHover:hover{
+    color: gold;
+}
+
+@media (max-width: 768px){
+    
+   .navbar-default {
+        position: fixed;
+        background-color: rgba(13, 18, 36, 0);
+        border-color: rgba(3, 3, 3, 0);
+        width: 95%;
+    }
+    
+    .header .intro-header .intro2 {
+        
+            font-size: 30px;
+        
+
+    }
+    
+   .contact .container .title b h1 { 
+       margin-top: 5px !important;
+       }
+    
+   /* .form .name{
+        border: solid 3px gold;
+    border-radius: 35px;
+    margin: 22px;
+    margin-top: -10px;
+    width: 196px;
+    height: 55px;
+    }*/
+}
